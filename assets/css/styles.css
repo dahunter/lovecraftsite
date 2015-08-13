@@ -6,6 +6,15 @@ body {
   background-color: #fcfcfc;
 }
 
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  margin: 2em 0;
+}
+
 #menu {
   margin: 10px 0 0 0;
   padding: 0 0 20px 10px;
@@ -40,45 +49,19 @@ body {
   margin: 10px auto;
 }
 
-h1, h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-}
-
-p {
-  margin: 2em 0;
-}
-
-body.zann {
-  background-color: #290F3F;
-  color: #B2006B;
-}
-
-body.zann #menu {
-  border-bottom: 1px solid #B2006B;
-}
-
-body.zann #menu a {
-  color: #B2006B;
-}
-
-body.zann #menu a:hover {
-  border-bottom: 4px solid #B2006B;
-}
-
-body.inverted {
+.inverted {
   background-color: #1f1f1f;
   color: #f1f1f1;
 }
 
-body.inverted #menu {
+.inverted #menu {
   border-bottom: 1px solid #f1f1f1;
 }
 
-body.inverted #menu a {
+.inverted #menu a {
   color: #f1f1f1;
 }
 
-body.inverted #menu a:hover {
+.inverted #menu a:hover {
     border-bottom: 4px solid #f1f1f1;
 }
