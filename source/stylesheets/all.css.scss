@@ -1,0 +1,32 @@
+@import "variables.css.scss";
+@import "normalize.css.scss";
+@import "menu.css.scss";
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  line-height: 1.4;
+  color: $text-color;
+  background-color: $bg-color;
+}
+
+.main {
+  max-width: 720px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  margin: 2em 0;
+}
+
+.inverted {
+  background-color: $bg-color-inverted;
+  color: $text-color-inverted;
+}
